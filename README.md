@@ -37,10 +37,10 @@ sayıdan oluşmaktadır. b yığını boştur.
 
 # Örnek
 
-1-
+
  <img width="520" alt="Ekran Resmi 2023-11-08 17 00 18" src="https://github.com/facetint/push_swap/assets/99668549/ca192da9-64e5-464b-b9f0-2fec9b279bca">
 
-2-
+--------------------------------------------------------------------------------------------------------------------------------------------
 
  <img width="679" alt="Ekran Resmi 2023-11-08 17 01 55" src="https://github.com/facetint/push_swap/assets/99668549/ad6aa33d-1c4f-4140-98ad-570e9920fa65">
 
