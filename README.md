@@ -24,7 +24,9 @@ Bu proje, c dilinde olup sınırlı sayıdaki talimatlar ile beraber en az hamle
 sayıdan oluşmaktadır. b yığını boştur.
  ✺  Amacımız yığında küçükten büyüğe artan şekilde sıralama yapmaktır. Ve yığını mümkün olan en az sayıda hamleyle sıralamaktır.
  ✺  Hata alma durumlarında yani aynı sayı gelme, int max değerini aşımı ve sayıdan farklı bir durum oluştuğunda ekrana Error mesajı bastırılmalıdır.
- 
+
+# Örnek
+
 <img width="520" alt="Ekran Resmi 2023-11-08 16 49 21" src="https://github.com/facetint/push_swap/assets/99668549/0c9a303c-1786-40a0-99ca-579212521a86">
 
 ## Bonus 🌟
@@ -33,9 +35,11 @@ sayıdan oluşmaktadır. b yığını boştur.
  ✺ Tüm talimatlar okunup kıyaslama yapıldıktan sonra, Ctrl + D ye bastıktan sonra eğer talimatlar doğru ise OK, yanlış ise KO yazısı bastırmalıdır.
  ✺ Hata alma durumlarında yani aynı sayı gelme, int max değerini aşımı ve sayıdan farklı bir durum oluştuğunda ekrana Error mesajı bastırılmalıdır.
 
-🔴 <img width="520" alt="Ekran Resmi 2023-11-08 17 00 18" src="https://github.com/facetint/push_swap/assets/99668549/ca192da9-64e5-464b-b9f0-2fec9b279bca">
+# Örnek
 
-🔴 <img width="679" alt="Ekran Resmi 2023-11-08 17 01 55" src="https://github.com/facetint/push_swap/assets/99668549/ad6aa33d-1c4f-4140-98ad-570e9920fa65">
+ <img width="520" alt="Ekran Resmi 2023-11-08 17 00 18" src="https://github.com/facetint/push_swap/assets/99668549/ca192da9-64e5-464b-b9f0-2fec9b279bca">
+
+ <img width="679" alt="Ekran Resmi 2023-11-08 17 01 55" src="https://github.com/facetint/push_swap/assets/99668549/ad6aa33d-1c4f-4140-98ad-570e9920fa65">
 
 
  
