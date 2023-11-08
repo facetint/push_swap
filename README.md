@@ -81,8 +81,7 @@ Algoritma çeşitlerinden ben quicksort algoritmasını seçtim.
 
 ##  Quicksort Algoritması Nasıl Çalışır ?
 
-<img width="576" alt="Ekran Resmi 2023-11-08 17 45 56" src="https://github.com/facetint/push_swap/assets/99668549/b3e0d11f-7427-47bb-8543-e8bab4a3c5a6">
-
+<img width="863" alt="Ekran Resmi 2023-11-08 17 51 29" src="https://github.com/facetint/push_swap/assets/99668549/74bb7f00-1fe9-4755-81f6-b7c2b9b56176">
 
 
 Algoritma adımları şu şekilde özetlenebilir:
