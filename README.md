@@ -1,3 +1,4 @@
+![image](https://github.com/facetint/push_swap/assets/99668549/db5a9637-b074-44c4-969f-6d997c32a10e)
 
 
 
