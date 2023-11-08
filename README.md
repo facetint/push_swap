@@ -1,19 +1,19 @@
-![image](https://github.com/facetint/push_swap/assets/99668549/8b8ab358-16fa-4848-8a19-f7700843da3c)
+                                          ![image](https://github.com/facetint/push_swap/assets/99668549/8b8ab358-16fa-4848-8a19-f7700843da3c)
 
 # push_swap
 Bu proje, c dilinde olup sınırlı sayıdaki talimatlar ile beraber en az hamle sayısı olacak şekilde sıralama yapılmasını sağlayacaktır.
 
-## Operaciones 🔁
-| Talimatlar | Explicación |
+## Talimatlar 🔁
+| Talimatlar | Açıklama |
 | :--- | :--- |
-| sa | swap a - intercambia los dos primeros elementos encima del stack a. |
-| sb | swap b - intercambia los dos primeros elementos encima del stack b. |
-| ss | swap a y swap b a la vez. |
-| pa | push a -  toma el primer elemento del stack b y lo pone encima del stack a. |
-| pb | push b -  toma el primer elemento del stack a y lo pone encima del stack b. |
-| ra | rotate a - desplaza hacia arriba todos los elementos del stack a una posición, el primer elemento se convierte en el último. |
-| rb | rotate b - desplaza hacia arriba todos los elementos del stack b una posición, el primer elemento se convierte en el último. |
-| rr | ra y rb a la vez. |
-| rra | reverse rotate a - desplaza hacia abajo todos los elementos del stack a una posición, el último elemento se convierte en el primero. |
-| rrb | reverse rotate b - desplaza hacia abajo todos los elementos del stack b una posición, el último elemento se convierte en el primero. |
-| rrr | rra y rrb a la vez. |
+| sa | swap a - a yığınındaki ilk iki elemanının yeri değişir. |
+| sb | swap b - b yığınındaki ilk iki elemanının yeri değişir. |
+| ss | swap a ve swap b - sa ve sb talimatları aynı anda uygulanır. |
+| pa | push a -  b yığınının en üstteki ilk elemanını a yığının en üstüne yerleştirir. |
+| pb | push b -  a yığınının en üstteki ilk elemanını b yığının en üstüne yerleştirir. |
+| ra | rotate a - a yığınındaki ilk eleman yığının en sonuna atılır. |
+| rb | rotate b - b yığınındaki ilk eleman yığının en sonuna atılır. |
+| rr | ra ve rb - ra ve rb talimatları aynı anda uygulanır. |
+| rra | reverse rotate a - a yığınındaki son eleman yığının ilk elemanının yerine atılır. Ve artık ilk eleman olur. |
+| rrb | reverse rotate b - b yığınındaki son eleman yığının ilk elemanının yerine atılır. Ve artık ilk eleman olur. |
+| rrr | rra ve rrb - rra ve rrb talimatları aynı anda uygulanır. |
