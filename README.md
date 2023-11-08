@@ -81,11 +81,18 @@ Algoritma çeşitlerinden ben quicksort algoritmasını seçtim.
 
 ##  Quicksort Algoritması Nasıl Çalışır ?
 
-- Bir dizi, bir pivot öğenin (diziden seçilen öğe) seçilmesiyle alt dizilere bölünür .
-- Diziyi bölerken pivot elemanı, pivottan küçük elemanlar pivotun sol tarafında, pivottan büyük elemanlar ise pivotun sağ tarafında kalacak şekilde konumlandırılmalıdır.
-- Sol ve sağ alt diziler de aynı yaklaşım kullanılarak bölünür. Bu süreç, her alt dizi tek bir öğe içerene kadar devam eder.
-- Bu noktada öğeler zaten sıralanmıştır. Son olarak öğeler sıralanmış bir dizi oluşturacak şekilde birleştirilir.
-- En iyi durumda n\log n şeklindedir.
+<img width="576" alt="Ekran Resmi 2023-11-08 17 45 56" src="https://github.com/facetint/push_swap/assets/99668549/b3e0d11f-7427-47bb-8543-e8bab4a3c5a6">
+
+
+
+Algoritma adımları şu şekilde özetlenebilir:
+
+1- Diziden herhangi bir elemanı pivot(kilit) eleman olarak seçer.
+2- Diziyi, pivot elemandan küçük olan bütün elemanlar pivot elemanın önüne, pivot elemandan büyük olan bütün elemanlar pivot elemanın arkasına gelecek biçimde düzenler.
+3- Pivot elemana eşit olan sayılar sıralamanın küçükten büyüğe ya da büyükten küçüğe olmasına bağlı olarak pivot elemanın her iki tarafına da geçebilir.
+4- Quicksort algoritması özyineli(recursive) çağrılarak, oluşan küçük diziler tekrar sıralanır.
+5- Algoritma eleman sayısı sıfır olan bir alt diziye ulaşana kadar bu işlem devam eder.
+6- Eleman sayısı sıfır olan bir alt diziye ulaşıldığında algoritma bu dizinin sıralanmış olduğunu varsayar ve sıralama işlemi tamamlanmış olur.
   
 Pivot seçimi : Pivot seçmenin 4 yaygın yolu vardır. Aşağıdaki yöntemlerden herhangi biri kullanılabilir:
 
@@ -93,6 +100,8 @@ Pivot seçimi : Pivot seçmenin 4 yaygın yolu vardır. Aşağıdaki yöntemlerd
 2- Son öğeyi seç
 3- Rastgele bir öğe seç
 4- Ortanca elemanı seç
-Bu proje de biz ortanca elemanı pivot olarak seçtik. Sebebi daha az hamlede sıralamayı yapmak istediğimiz içindir.
+Bu proje de biz ortanca elemanı pivot olarak seçtik. Sebebi daha az hamlede sıralamayı yapmak istediğimiz için.
+
+‼️ En iyi durumda n\log n şeklindedir.
 
 
