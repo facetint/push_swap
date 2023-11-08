@@ -1,4 +1,5 @@
-                ![image](https://github.com/facetint/push_swap/assets/99668549/8b8ab358-16fa-4848-8a19-f7700843da3c)
+                ![image](https://github.com/facetint/push_swap/assets/99668549/ae59c4ab-451b-4217-a26e-49702b91179a)
+
 
 # push_swap
 Bu proje, c dilinde olup sınırlı sayıdaki talimatlar ile beraber en az hamle sayısı olacak şekilde sıralama yapılmasını sağlayacaktır.
