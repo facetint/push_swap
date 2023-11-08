@@ -1,4 +1,4 @@
-                            <img width="953" alt="Ekran Resmi 2023-11-08 14 47 25" src="https://github.com/facetint/push_swap/assets/99668549/7bbf20d2-7c09-4a53-8ef2-9ed160211518">
+<img width="953" alt="Ekran Resmi 2023-11-08 14 47 25" src="https://github.com/facetint/push_swap/assets/99668549/a748b807-0b5a-4b1e-ad57-5d38c767f848">
 
 
 
