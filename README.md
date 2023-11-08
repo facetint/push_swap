@@ -44,5 +44,55 @@ sayıdan oluşmaktadır. b yığını boştur.
 
  <img width="679" alt="Ekran Resmi 2023-11-08 17 01 55" src="https://github.com/facetint/push_swap/assets/99668549/ad6aa33d-1c4f-4140-98ad-570e9920fa65">
 
+# SIRALAMA ALGORİTMALARI
 
- 
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Merge Sort
+- Quicksort
+- Counting Sort
+- Radix Sort
+- Bucket Sort
+- Heap Sort
+- Shell Sort
+
+1) Bubble Sort : Bu algoritmada, soldan ilerleyin ve bitişik elemanları karşılaştırın; daha yüksek olan sağ tarafa yerleştirilir. Bu şekilde ilk önce en büyük eleman en sağdaki uca taşınır. Daha sonra bu işleme ikinci en büyük olanı bulmak ve yerleştirmek için devam edilir ve veriler sıralanana kadar bu şekilde devam eder.
+
+2) Selection Sort : Listenin sıralanmamış kısmından en küçük (veya en büyük) öğeyi tekrar tekrar seçer ve onu sıralanmamış bölümün ilk öğesiyle değiştirir. Bu işlem, listenin tamamı sıralanıncaya kadar kalan sıralanmamış kısım için tekrarlanır.
+
+3) Insertion Sort : Elinizdeki oyun kartlarını sıralama şeklinize benzer şekilde çalışan basit bir sıralama algoritmasıdır. Dizi neredeyse sıralanmış ve sıralanmamış bir parçaya bölünmüştür. Sıralanmamış kısımdan değerler alınır ve sıralanmış kısımda doğru konuma yerleştirilir.
+
+4) Merge Sort : Bir diziyi daha küçük alt dizilere bölerek, her bir alt diziyi sıralayarak ve ardından sıralanan alt dizileri son sıralanmış diziyi oluşturmak için yeniden birleştirerek çalışan bir sıralama algoritması olarak tanımlanır.
+
+5) Counting Sort : Sınırlı sayıda giriş değeri olduğunda iyi çalışan, karşılaştırmaya dayalı olmayan bir sıralama algoritmasıdır. Girdi değerleri aralığı, sıralanacak öğelerin sayısıyla karşılaştırıldığında küçük olduğunda özellikle verimlidir. Sayarak Sıralamanın ardındaki temel fikir, giriş dizisindeki her bir farklı öğenin sıklığını saymak ve bu bilgiyi, öğeleri doğru sıralanmış konumlarına yerleştirmek için kullanmaktır.
+
+6) Radix Sort : Öğeleri basamak basamak işleyerek sıralayan doğrusal bir sıralama algoritmasıdır. Sabit boyutlu tuşlara sahip tamsayılar veya dizeler için etkili bir sıralama algoritmasıdır.
+
+7) Bucket Sort : Öğeleri çeşitli gruplara veya kovalara bölmeyi içeren bir sıralama tekniğidir. Bu kovalar elemanların eşit şekilde dağıtılmasıyla oluşturulur. Öğeler gruplara bölündükten sonra başka herhangi bir sıralama algoritması kullanılarak sıralanabilirler. Son olarak, sıralanan öğeler düzenli bir şekilde bir araya getirilir.
+
+8) Heap Sort : İkili Yığın veri yapısına dayalı, karşılaştırmaya dayalı bir sıralama tekniğidir . Bu , ilk olarak minimum elemanı bulduğumuz ve minimum elemanı başlangıca yerleştirdiğimiz seçim sıralamasına benzer . Geriye kalan elemanlar için de aynı işlemi tekrarlayın.
+
+9) Shell Sort : Kabuk sıralaması esas olarak Ekleme Sıralaması'nın bir çeşididir . Eklemeli sıralamada elemanları yalnızca bir konum ileriye taşırız. Bir öğenin çok ileriye taşınması gerektiğinde birçok hareket söz konusu olur. ShellSort'un fikri uzaktaki öğelerin alışverişine izin vermektir. Kabuk sıralamasında, diziyi büyük bir h değeri için h sıralamasına göre yaparız. h'nin değerini 1 olana kadar düşürmeye devam ediyoruz. Her h'inci elemanın tüm alt listeleri sıralanıyorsa, bir dizinin h-sıralı olduğu söylenir.
+
+10) Quicksort :  bir öğeyi pivot olarak seçen ve pivotu sıralanan dizide doğru konuma yerleştirerek verilen diziyi seçilen pivot etrafında bölen , Böl ve Fethet algoritmasını temel alan bir sıralama algoritmasıdır .
+
+Algoritma çeşitlerinden ben quicksort algoritmasını seçtim.
+
+##  Quicksort Algoritması Nasıl Çalışır ?
+
+- Bir dizi, bir pivot öğenin (diziden seçilen öğe) seçilmesiyle alt dizilere bölünür .
+- Diziyi bölerken pivot elemanı, pivottan küçük elemanlar pivotun sol tarafında, pivottan büyük elemanlar ise pivotun sağ tarafında kalacak şekilde konumlandırılmalıdır.
+- Sol ve sağ alt diziler de aynı yaklaşım kullanılarak bölünür. Bu süreç, her alt dizi tek bir öğe içerene kadar devam eder.
+- Bu noktada öğeler zaten sıralanmıştır. Son olarak öğeler sıralanmış bir dizi oluşturacak şekilde birleştirilir.
+- En iyi durumda n\log n şeklindedir.
+  
+Pivot seçimi : Pivot seçmenin 4 yaygın yolu vardır. Aşağıdaki yöntemlerden herhangi biri kullanılabilir:
+
+1- İlk öğeyi seç
+2- Son öğeyi seç
+3- Rastgele bir öğe seç
+4- Ortanca elemanı seç
+Bu proje de biz ortanca elemanı pivot olarak seçtik. Sebebi daha az hamlede sıralamayı yapmak istediğimiz içindir.
+
+
