@@ -25,9 +25,7 @@ sayıdan oluşmaktadır. b yığını boştur.
  ✺  Amacımız yığında küçükten büyüğe artan şekilde sıralama yapmaktır. Ve yığını mümkün olan en az sayıda hamleyle sıralamaktır.
  ✺  Hata alma durumlarında yani aynı sayı gelme, int max değerini aşımı ve sayıdan farklı bir durum oluştuğunda ekrana Error mesajı bastırılmalıdır.
 
- 
-<img width="520" alt="Ekran Resmi 2023-11-08 16 47 52" src="https://github.com/facetint/push_swap/assets/99668549/721eded0-af79-4c9e-b2e9-1cd5c8138762">
-
+ <img width="520" alt="Ekran Resmi 2023-11-08 16 49 21" src="https://github.com/facetint/push_swap/assets/99668549/802d655b-11e4-43e0-92cd-f5411194dff3">
 
 ## Bonus 🌟
  ✺ Bir checker programı yapılacaktır.   
