@@ -1,8 +1,6 @@
 ![image](https://github.com/facetint/push_swap/assets/99668549/db5a9637-b074-44c4-969f-6d997c32a10e)
 
 
-
-
 # push_swap
 Bu proje, c dilinde olup sınırlı sayıdaki talimatlar ile beraber en az hamle sayısı olacak şekilde sıralama yapılmasını sağlayacaktır.
 
@@ -20,3 +18,12 @@ Bu proje, c dilinde olup sınırlı sayıdaki talimatlar ile beraber en az hamle
 | rra | reverse rotate a -> a yığınındaki son eleman yığının ilk elemanının yerine geçer. Ve artık ilk eleman haline gelir. |
 | rrb | reverse rotate b -> b yığınındaki son eleman yığının ilk elemanının yerine geçer. Ve artık ilk eleman haline gelir. |
 | rrr | rra ve rrb -> rra ve rrb talimatları aynı anda uygulanır. |
+
+## Zorunlu Kısım 
+ ✺  İstenilen algoritma seçilebilecektir. a ve b isimli 2 yığın olacaktır. Başlangıç da a yığını rastgele sayıda birbirinin kopyası olmayan negative veya pozitif
+sayıdan oluşmaktadır. b yığını boştur.
+ ✺  Amacımız yığında küçükten büyüğe artan şekilde sıralama yapmaktır. Ve yığını mümkün olan en az sayıda hamleyle sıralamaktır.
+ ✺  Hata alma durumlarında yani aynı sayı gelme, int max değerini aşımı ve sayıdan farklı bir durum oluştuğunda ekrana Error mesajı bastırılmalıdır.
+
+## Bonus 🌟
+  
