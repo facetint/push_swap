@@ -109,6 +109,7 @@ Pivot seçimi : Pivot seçmenin 4 yaygın yolu vardır. Aşağıdaki yöntemlerd
 3- Rastgele bir öğe seç
 
 4- Ortanca elemanı seç
+
 Bu proje de biz ortanca elemanı pivot olarak seçtik. Sebebi daha az hamlede sıralamayı yapmak istediğimiz için.
 
 ‼️ En iyi durumda n\log n şeklindedir.
