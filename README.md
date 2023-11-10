@@ -116,7 +116,7 @@ Bu proje de biz ortanca elemanı pivot olarak seçtik. Sebebi daha az hamlede s�
 
 ‼️ En iyi durumda n\log n şeklindedir.
 
-## Quicksort'un Koddaki Kullanımım 
+## Quicksort'un Kod İçindeki Kullanımım
 
 1) Buradaki sıralama yaparken a yığınında küçükten büyüğe, b yığınında büyükten küçüğe bir sıralama durumu olmaktadır. İlk durumda b boştur.
 2) A yığınındaki diziden pivot eleman seçilir. Bu pivot ortanca eleman olacaktır.
