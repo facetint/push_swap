@@ -34,7 +34,7 @@ sayıdan oluşmaktadır. b yığını boştur.
  
  ✺ Checker çıktıdaki ’\n’ i takip edip satır satır okuyarak talimatların doğru olup olmadığına bakar. 
  
- ✺ Tüm talimatlar okunup kıyaslama yapıldıktan sonra, Ctrl + D ye bastıktan sonra eğer talimatlar doğru ise OK, yanlış ise KO yazısı bastırmalıdır.
+ ✺ Tüm talimatlar okunup kıyaslama yapıldıktan sonra, Ctrl + D ye bastıktan sonra eğer talimatlar doğru ise OK, yanlış ise KO mesajı bastırmalıdır.
  
  ✺ Hata alma durumlarında yani aynı sayı gelme, int max değerini aşımı ve sayıdan farklı bir durum oluştuğunda ekrana Error mesajı bastırılmalıdır.
 
