@@ -103,8 +103,11 @@ Algoritma adımları şu şekilde özetlenebilir:
 Pivot seçimi : Pivot seçmenin 4 yaygın yolu vardır. Aşağıdaki yöntemlerden herhangi biri kullanılabilir:
 
 1- İlk öğeyi seç
+
 2- Son öğeyi seç
+
 3- Rastgele bir öğe seç
+
 4- Ortanca elemanı seç
 Bu proje de biz ortanca elemanı pivot olarak seçtik. Sebebi daha az hamlede sıralamayı yapmak istediğimiz için.
 
