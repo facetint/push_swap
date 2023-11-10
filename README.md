@@ -20,9 +20,13 @@ Bu proje, c dilinde olup sınırlı sayıdaki talimatlar ile beraber en az hamle
 | rrr | rra ve rrb -> rra ve rrb talimatları aynı anda uygulanır. |
 
 ## Zorunlu Kısım 
- ✺  İstenilen algoritma seçilebilecektir. a ve b isimli 2 yığın olacaktır. Başlangıç da a yığını rastgele sayıda birbirinin kopyası olmayan negative veya pozitif
+ ✺  İstenilen algoritma seçilebilecektir.
+ 
+ ✹  a ve b isimli 2 yığın olacaktır. Başlangıç da a yığını rastgele sayıda birbirinin kopyası olmayan negative veya pozitif
 sayıdan oluşmaktadır. b yığını boştur.
+
  ✺  Amacımız yığında küçükten büyüğe artan şekilde sıralama yapmaktır. Ve yığını mümkün olan en az sayıda hamleyle sıralamaktır.
+ 
  ✺  Hata alma durumlarında yani aynı sayı gelme, int max değerini aşımı ve sayıdan farklı bir durum oluştuğunda ekrana Error mesajı bastırılmalıdır.
 
 # Örnek
