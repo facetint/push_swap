@@ -127,7 +127,7 @@ Bu proje de biz ortanca elemanı pivot olarak seçtik. Sebebi daha az hamlede s�
 7) A yığını sıralandığında recursive in kaldığı yerdeki size boyutuyla beraber b yığınına gönderilir.
 8) B yığınındaki boyut 3 den büyük olursa pivot belirlenir. Olmazsa diğer 3 lü sıralamalar için olan fonksiyonlar çağırılarak işlem yapılır.
 9) Belirlenen pivot değerinden büyük ve eşit olanlar a yığınının en üstüne gönderilir. Bu işlemde b yığınının boyutunun yarısına kadar devam eder.
-10) Böylece recursive çağırılıp boyut değişirken, içerdeki boyutun durumuna göre olan fonksiyonları çağırarak a yığınına gönderilip, sıralama yapıp bitirilir.
+10) Böylece recursive çağırılıp boyut değişirken, içerdeki boyutun durumuna göre olan fonksiyonları çağırarak a yığınına gönderilip, sıralama yapıp bitirilir. 
 
 
 
