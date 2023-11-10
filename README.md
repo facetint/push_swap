@@ -19,11 +19,13 @@ Bu proje, c dilinde olup sınırlı sayıdaki talimatlar ile beraber en az hamle
 | rrb | reverse rotate b -> b yığınındaki son eleman yığının ilk elemanının yerine geçer. Ve artık ilk eleman haline gelir. |
 | rrr | rra ve rrb -> rra ve rrb talimatları aynı anda uygulanır. |
 
-## Zorunlu Kısım 
- ✺  İstenilen algoritma seçilebilecektir.
+## Zorunlu Kısım
+
+ ✺  İstenilen algoritma seçilebilecektir. Önemli olan en az hamle için de sıralama yapılmasıdır.
  
- ✹  a ve b isimli 2 yığın olacaktır. Başlangıç da a yığını rastgele sayıda birbirinin kopyası olmayan negative veya pozitif
-sayıdan oluşmaktadır. b yığını boştur.
+ ✺  a ve b isimli 2 yığın olacaktır.
+ 
+ ✺  Başlangıç da a yığını rastgele sayıda birbirinin kopyası olmayan negative ya da pozitif sayıdan oluşmaktadır. B yığını boştur.
 
  ✺  Amacımız yığında küçükten büyüğe artan şekilde sıralama yapmaktır. Ve yığını mümkün olan en az sayıda hamleyle sıralamaktır.
  
@@ -38,9 +40,9 @@ sayıdan oluşmaktadır. b yığını boştur.
  
  ✺ Checker çıktıdaki ’\n’ i takip edip satır satır okuyarak talimatların doğru olup olmadığına bakar. 
  
- ✺ Tüm talimatlar okunup kıyaslama yapıldıktan sonra, Ctrl + D ye bastıktan sonra eğer talimatlar doğru ise OK, yanlış ise KO mesajı bastırmalıdır.
+ ✺ Tüm talimatlar okunup kıyaslama yapıldıktan sonra, Ctrl + D ye basıp, eğer talimatlar doğru ise OK, yanlış ise KO mesajı bastırmalıdır.
  
- ✺ Hata alma durumlarında yani aynı sayı gelme, int max değerini aşımı ve sayıdan farklı bir durum oluştuğunda ekrana Error mesajı bastırılmalıdır.
+ ✺ Hata alma durumlarında: yani aynı sayı gelme, int max değerini aşımı ve sayıdan farklı bir durum oluştuğunda ekrana Error mesajı bastırılmalıdır.
 
 # Örnek
 
@@ -113,5 +115,19 @@ Pivot seçimi : Pivot seçmenin 4 yaygın yolu vardır. Aşağıdaki yöntemlerd
 Bu proje de biz ortanca elemanı pivot olarak seçtik. Sebebi daha az hamlede sıralamayı yapmak istediğimiz için.
 
 ‼️ En iyi durumda n\log n şeklindedir.
+
+## Quicksort'un Koddaki Kullanımım 
+
+1) Buradaki sıralama yaparken a yığınında küçükten büyüğe, b yığınında büyükten küçüğe bir sıralama durumu olmaktadır. İlk durumda b boştur.
+2) A yığınındaki diziden pivot eleman seçilir. Bu pivot ortanca eleman olacaktır.
+3) Bunu küçük bir bubble sort yapıp, geçici bir değişken de tutup buldum. 
+4) Şuan a yığınımdaki rastgele, sıralanmamış olan sayılarımdan, a yığınının ilk indisinden başlayarak pivot'a göre kıyaslanıp, pivottan küçük olanları b yığınının en altına gönderilir.
+5) Bu durum a yığınının boyutunun yarısına kadar devam etmektedir.
+6) Daha sonra a yığını sıralanana kadar recursive olarak çağırılarak bu işlem devam eder.
+7) A yığını sıralandığında recursive in kaldığı yerdeki size boyutuyla beraber b yığınına gönderilir.
+8) B yığınındaki boyut 3 den büyük olursa pivot belirlenir. Olmazsa diğer 3 lü sıralamalar için olan fonksiyonlar çağırılarak işlem yapılır.
+9) Belirlenen pivot değerinden büyük ve eşit olanlar a yığınının en üstüne gönderilir. Bu işlemde b yığınının boyutunun yarısına kadar devam eder.
+10) Böylece recursive çağırılıp boyut değişirken, içerdeki boyutun durumuna göre olan fonksiyonları çağırarak a yığınına gönderilip, sıralama yapıp bitirilir.
+
 
 
